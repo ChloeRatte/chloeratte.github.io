@@ -1,0 +1,15 @@
+<html>
+<head> Chloe's Profile</head>
+<body>
+<img src="chloe.jpg" alt="chloe" height="250" width="300">
+<h1> Hello! I'm Chloe.</h1>
+<p>I am now in girls who code, and have completed multiple Scratch projects. I hope to enjoy my time here.</p>
+
+<h2>About me</h2>
+<p>I love webcomics, reading, writing, and, now, coding! I am a rising junior at Bloomfield High, where I took an introductory java course. I have one younger brother, a cat, and a tortoise.</p>
+<h3>Likes: <h3>
+<p>Foods: pizza,</p> 
+<p>Drinks: Hot chocolate, lemonade, water</p>  
+<p></p>
+</body>
+</hmtl>
