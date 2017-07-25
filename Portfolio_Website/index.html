@@ -1,17 +1,23 @@
 <html>
-<head> <title> Chloe's Profile </title> </head>
+<head> <script type="text/javascript" src="ex.js">
+</script>
+<title> Chloe's Profile </title> </head>
 <body>
-<style>	
-body{	background-color: #ffffff;}
+<div id = "conten">
+<style>
+body{
+	background-image: url("violet.jpg"); 
+}
+#conten{
+	}
 #titl{
 	text-align: center;
-	color: #270001;
+	color: #FEFF51;
 }
-#cent{
+.cent{
 	text-align: center;
-	color: #73143F;
-	margin-right: 300px;
-    margin-left: 300px;
+	color: #FEFF51;
+
 }
 #imag {
     float: left;
@@ -22,27 +28,54 @@ body{	background-color: #ffffff;}
     margin: 10px 10px 0 0;
 }
 .Block{
-	background-color: #73143F;
 }
 .BlockSize{
-	padding-left: 700px;
-	padding-right: 700px;
-	padding-bottom: 200px;  
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-bottom: 50px;
+	padding-top: 50px; 
 }
 .top{
-	background-color: #73143F;
+	background-color: rgb(62, 36, 157);
+	font-size: 70px;
 }
+.low{
+	background-color: rgb(62, 36, 157);
+	font-size: 30px;
+}
+.Button{
+	background-color: #3D00B5;
+	border: none;
+    color: #ffffff;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 17px 12px;
+    font-family: "Times New Roman";
+}
+.de
 
 </style>
 
-<div class="Block BlockSize">
- 	<p id = "cent" <img allign = "center" src="chloe.jpg" alt="chloe" height="200" width="390"> </p>
-</div>
-<h1 id = "titl"  class="top"> <img id = "imag" src="hell.jpg" alt="hell" height="180" width="300">  <img id = "imag2" src="pizza.png" alt="pizza" height="180" width="300">Hello! Welcome to my Webpage.</h1>
 
-<h2 id = "titl"> About me</h2>
 
-<p  id = "cent"> My full name is Chloe Jade Ratte, and I live in New Jersey with my mom, dad, and brother. I love webcomics, reading, writing, and, now, coding! I am a rising junior at <a href="http://bhs.bloomfield.schooldesk.net/">Bloomfield High</a>, where I took an introductory java course. I have one younger brother, a cat, and a tortoise. I am now in girls who code, and have completed multiple Scratch projects. I hope to enjoy my time here.</p>
+<!--- <div class="Block BlockSize"> /**/
+-->
+ 	<p class= "cent"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" allign = "center" src="chlo.jpg" alt="chlo" height="200" width="200"> </p>
+<!--- </div> -->
+<h1 id = "titl"  class="top"> <!--- <img id = "imag" src="hell.jpg" alt="hell" height="180" width="300">  <img id = "imag2" src="pizza.png" alt="pizza" height="180" width="300">--><em>Chloe Ratte<p id = "titl" class = "low">"He is holding a cat."</p></em></h1>
+
+<h2 id = "titl"> 
+	<button class = "Button" type="button" onclick="myFunction()"> About Me</button>
+	<button class = "Button" type="button" onclick="myFunction2()"> Gallery</button>
+	<button class = "Button" type="button" onclick="myFunction3()"> Contact Me!</button>
+	<button class = "Button" type="button" onclick="myFunction4()"> Projects</button>
+</h2>
+
+<p id = "demo" class = "cent"> </p>
+<!--- <p  id = "cent"> My full name is Chloe Jade Ratte, and I live in New Jersey with my mom, dad, and brother. I love webcomics, reading, writing, and, now, coding! I am a rising junior at <a href="http://bhs.bloomfield.schooldesk.net/">Bloomfield High</a>, where I took an introductory java course. I have one younger brother, a cat, and a tortoise. I am now in girls who code, and have completed multiple Scratch projects. I hope to enjoy my time here.</p>
 
 <h3 id = titl> My Likes: </h3>
 <p id = "cent">Foods: pizza, steak tacos</p> 
@@ -51,5 +84,7 @@ body{	background-color: #ffffff;}
 
 <h4 id = "titl"> School Life</h4>
 <p id = "cent">Like I said previously, I will be a junior come September. That means I will have to tackle four AP classes in addition </p>
+-->
+</div>
 </body>
 </hmtl>
